@@ -21,3 +21,9 @@ increase in the effective reproduction number to R(t) > 1. Thus, it may be wise 
 quarantine measures after sufficient time has elapsed, during which maximum of the
 quarantined/isolated individuals are recovered.
 
+Codes:
+
+
+1. Quarantine_SIR.jl: Code for integration of neural network with the SIR system of equations. 
+2. SIER_Wuhan.jl: SIER implementation and estimation of optimal parameters through adjoint method (No integration of neural networks)
+2. SIR_from_Data_Wuhan.jl: SIER implementation and estimation of optimal parameters through adjoint method (No integration of neural networks). 
