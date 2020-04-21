@@ -1,25 +1,6 @@
 # COVID-Quarantine-control-model-Julia
 
-In a move described as unprecedented in public health history, starting 24 January
-2020, China imposed quarantine and isolation restrictions in Wuhan, a city of more than
-10 million people. This raised the question: is mass quarantine and isolation effective as
-a social tool in addition to its scientific use as a medical tool? In an effort to address
-this question, using a epidemiological model driven approach augmented by machine
-learning, we show that the quarantine and isolation measures implemented in Wuhan
-brought down the effective reproduction number R(t) of the CoVID-19 spread from
-R(t) > 1 to R(t) < 1 within a month after the imposition of quarantine control measures
-in Wuhan, China. This ultimately resulted in a stagnation phase in the infected case
-count in Wuhan. Our results indicate that the strict public health policies implemented
-in Wuhan may have played a crucial role in halting down the spread of infection and
-such measures should potentially be implemented in other highly affected countries such
-as South Korea, Italy and Iran to curtail spread of the disease. Finally, our forecasting
-results predict a stagnation in the quarantine control measures implemented in Wuhan
-towards the end of March 2020; this would lead to a subsequent stagnation in the effective
-reproduction number at R(t) < 1. We warn that immediate relaxation of the quarantine
-measures in Wuhan may lead to a relapse in the infection spread and a subsequent
-increase in the effective reproduction number to R(t) > 1. Thus, it may be wise to relax
-quarantine measures after sufficient time has elapsed, during which maximum of the
-quarantined/isolated individuals are recovered.
+Since the first recording of what we now call Covid-19 infection in Wuhan, Hubei province, China on Dec 31, 2019, the disease has spread worldwide and met with a wide variety of social distancing and quarantine policies. The effectiveness of these responses is notoriously difficult to quantify as individuals travel, violate policies deliberately or inadvertently, and infect others without themselves being detected. Moreover, the publicly available data on infection rates are themselves unreliable due to limited testing and even possibly under-reporting. In this paper, we attempt to interpret and extrapolate from publicly available data using a mixed first-principles epidemiological equations and data-driven neural network model. Leveraging our neural network augmented model, we focus our analysis on four locales: Wuhan, Italy, South Korea and the United States of America, and compare the role played by the quarantine and isolation measures in each of these countries in controlling the effective reproduction number $R_{t}$ of the virus. Our results unequivocally indicate that the countries in which rapid government interventions and strict public health measures for quarantine and isolation were implemented were successful in halting the spread of infection and prevent it from exploding exponentially. In the case of Wuhan especially, where the available data were earliest available, we have been able to test the predicting ability of our model by training it from data in the January 24 till March 3 window, and then matching the predictions up to April 1. Even for Italy and South Korea, we have a buffer window of one week (25 March - 1 April) to validate the predictions of our model. In the case of the US, our model captures well the current infected curve growth and predicts a halting of infection spread by 20 April 2020. We test our model predictions in the duration 1 April - 8 April compared to the actual data, and a good agreement is seen. We further demonstrate that relaxing or reversing quarantine measures right now will lead to an exponential explosion in the infected case count, thus nullifying the role played by all measures implemented in the US since mid March 2020.
 
 Codes:
 
