@@ -5,6 +5,5 @@ Since the first recording of what we now call Covid-19 infection in Wuhan, Hubei
 Codes:
 
 
-1. Quarantine_SIR.jl: Code for integration of neural network with the SIR system of equations. 
-2. SIER_Wuhan.jl: SIER implementation and estimation of optimal parameters through adjoint method (No integration of neural networks)
-2. SIR_from_Data_Wuhan.jl: SIER implementation and estimation of optimal parameters through adjoint method (No integration of neural networks). 
+1. Codes for Wuhan, Italy, Korea and USA are in .jl files. They are run through the Julia language.
+2. Results are in .pdf files
