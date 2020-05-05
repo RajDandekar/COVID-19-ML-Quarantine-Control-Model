@@ -6,7 +6,8 @@ Since the first recording of what we now call Covid-19 infection in Wuhan, Hubei
 
 
 1. Codes for Wuhan, Italy, Korea and USA are in .jl files. They are run through the Julia language.
-2. Results are in .pdf files
+2. Data is in .mat files.
+3. Results are in .pdf files.
 
 Please contact rajd@mit.edu for any queries.
 
